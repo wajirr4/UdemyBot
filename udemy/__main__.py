@@ -26,25 +26,25 @@ async def _(event):
         page = _cmd[1]
     scp = Scrapper()
     msg = await event.reply("Wait...")
-    if cmd == "/discudemy":
+    if cmd == "/page1":
         if not page:
             page = 1
         links = await scp.discudemy(page)
-    elif cmd == "/udemy_freebies":
+    elif cmd == "/page2":
         if not page:
             page = 1
         links = await scp.udemy_freebies(page)
-    elif cmd == "/tutorialbar":
+    elif cmd == "/page3":
         if not page:
             page = 1
         links = await scp.tutorialbar(page)
-    elif cmd == "/real_discount":
+    elif cmd == "/page4":
         if not page:
             page = 1
         links = await scp.real_discount(page)
-    elif cmd == "/coursevania":
+    elif cmd == "/page5":
         links = await scp.coursevania()
-    elif cmd == "/idcoupons":
+    elif cmd == "/page6":
         if not page:
             page = 1
         links = await scp.idcoupons(page)
