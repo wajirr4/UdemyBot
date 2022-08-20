@@ -6,7 +6,7 @@
         "github",
         "udemy"
     ],
-    "repository": "https://github.com/gautamajay52/UdemyBot",
+    "repository": "https://github.com/wajirr4/UdemyBot",
     "success_url": "https://t.me/gbotstoresupport",
     "website": "https://github.com/gautamajay52",
     "env": {
